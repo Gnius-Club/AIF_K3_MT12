@@ -1,24 +1,228 @@
-<!-- 
-HTML Template for Missions, delete and replace with mission HTML
--->
+
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Gnius Club</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Playbook - Preescolar Sesión 12</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-  <h1>
-    Playbook HTML Placeholder Template
-  </h1>
-  <p>
-    Replace with actual playbook code.
-  </p>
-  <script src="script.js"></script>
+<header>
+<h1><span class="book-icon">📋</span> <strong>Playbook Sesión 12 Kínder 1</strong></h1>
+<div class="header-widgets">
+<div class="timer-container">
+<span id="timer">⏱️ 00:00</span>
+<button id="startStop">Start</button>
+<button id="reset">Reset</button>
+</div>
+<div class="theme-toggle">
+<i class="fas fa-sun"></i>
+<label class="switch">
+<input type="checkbox" id="theme-toggle-input">
+<span class="slider round"></span>
+</label>
+<i class="fas fa-moon"></i>
+</div>
+</div>
+</header>
+<div class="main-container">
+<aside class="activity-list">
+<h2>Actividades</h2>
+<ul>
+<li><a href="#activity-0">📝</a></li>
+<li><a href="#activity-1">1</a></li>
+<li><a href="#activity-2">2</a></li>
+<li><a href="#activity-3">3</a></li>
+<li><a href="#activity-4">4</a></li>
+</ul>
+<div class="sidebar-info">
+<p>💡 Cada actividad está diseñada para ser lúdica y captar la atención de los más pequeños.</p>
+<p>⏱️ Los tiempos son una guía. Sé flexible y adáptate al ritmo del grupo.</p>
+</div>
+</aside>
+<main class="content">
+<div class="progress-bar">
+<div class="progress"></div>
+</div>
+<button id="toggle-dialogues">Mostrar todos los diálogos</button>
+<div class="activity-card" id="activity-0">
+<h2><span class="book-icon">📝</span> De un Vistazo: Misión: ¿Qué Sabe Realmente Kinderbot?</h2>
+<p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para esta aventura de aprendizaje.</p>
+<div class="overview-table-container">
+<table>
+<thead>
+<tr>
+<th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+<th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<strong>Objetivos de Aprendizaje:</strong>
+<ul>
+<li>Conectar los datos que le damos a una máquina con lo que la máquina "sabe".</li>
+<li>Entender que el conocimiento de una máquina es limitado a su entrenamiento.</li>
+<li>Desarrollar el pensamiento conceptual.</li>
+</ul>
+<strong>Secuencia Didáctica de la Misión:</strong>
+<ul>
+<li>⚡ Actividad 1: Bienvenida y Calentamiento Cerebral</li>
+<li>⚡ Actividad 2: Planteamiento del Reto y Cuento</li>
+<li>⚡ Actividad 3: ¡Manos a la Obra! (Actividad Principal)</li>
+<li>⚡ Actividad 4: Puesta en Común y Cierre de la Misión</li>
+</ul>
+<strong>Entregable Clave:</strong>
+<ul>
+<li>Participación activa en el proceso de 'entrenamiento' de Kinderbot.</li>
+<li>Predicción acertada sobre la incapacidad de Kinderbot para reconocer una forma no entrenada.</li>
+<li>Explicación clara (a su nivel) de por qué Kinderbot no reconoció la forma nueva, relacionándolo con la falta de 'enseñanza'.</li>
+</ul>
+</td>
+<td>
+<strong>Materiales Específicos:</strong>
+<ul>
+<li>Kinderbot.</li>
+<li>Tarjetas de entrenamiento (ej. 3 formas geométricas: círculo, cuadrado, triángulo).</li>
+<li>Una tarjeta con una forma nueva (estrella).</li>
+</ul>
+<strong>Preparación Previa para ESTA Sesión:</strong>
+<ol>
+<li><strong>Revisión de Materiales:</strong> Asegurar que todos los materiales estén completos, limpios y listos para ser repartidos.</li>
+<li><strong>Preparación del Espacio:</strong> Organizar el aula para facilitar la actividad (círculo en el suelo, mesas de trabajo, espacio para moverse).</li>
+<li><strong>Familiarización:</strong> Leer el playbook completo para entender el flujo narrativo, los diálogos y las transiciones. Tener clara la historia o el reto que se presentará.</li>
+</ol>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="activity-card" id="activity-1">
+<h2>⚡ Actividad 1: ¡Hola, Aventureros de Datos! ⏰ 5 min</h2>
+<p>Activamos nuestra mente para recordar cómo nuestras máquinas favoritas aprenden cosas nuevas.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: Bienvenida y Conexión con Nuestros Conocimientos (2 min)</h3>
+<p>Inicia la sesión dando una bienvenida súper enérgica a los pequeños exploradores de datos. (Proyectar Diapositiva 1) Recuerda la misión de hoy y el tema de las máquinas.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Hola, equipo de exploradores de datos más increíble del mundo! ¿Están listos para una nueva aventura de aprendizaje? ¡Yo estoy muy emocionada! Hoy vamos a seguir descubriendo los secretos de nuestras amigas las máquinas. ¿Se acuerdan que las máquinas no son mágicas? ¡No hacen las cosas por arte de magia! ¿Verdad?</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: Recordando el Poder de los Datos (3 min)</h3>
+<p>Invita a los niños a recordar cómo las máquinas 'aprenden' y qué son los 'datos'. (Proyectar Diapositiva 2) Anímalos a compartir sus ideas y experiencias previas. Conecta sus respuestas con la idea de que los datos son como la comida para el cerebro de las máquinas.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">Si las máquinas no son mágicas, ¿entonces cómo es que saben hacer tantas cosas? ¿Quién me puede decir qué necesitan las máquinas para aprender y hacer cosas increíbles? ¡Eso es, necesitan DATOS! ¡Son como pequeños maestros que les enseñamos todo lo que saben! ¡Los datos son como la comida deliciosa que le damos a las máquinas para que sus cerebritos crezcan y sean súper inteligentes! ¿Listos para darle muchos datos a una máquina hoy?</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-2">
+<h2>⚡ Actividad 2: El Misterio de Kinderbot: ¿Qué Sabe y Qué No? ⏰ 5 min</h2>
+<p>Preparamos el terreno para un gran descubrimiento: las máquinas solo saben lo que les enseñamos. ¡Vamos a poner a prueba a nuestro amigo Kinderbot!</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: Presentando a Kinderbot y el Gran Reto (2 min)</h3>
+<p>Genera expectación sobre las habilidades de Kinderbot. (Proyectar Diapositiva 3) Introduce a Kinderbot como el protagonista de la misión de hoy y explica que tiene un gran reto por delante.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Excelente! Hoy tenemos una misión muy, muy especial. ¡Conozcan a nuestro amigo Kinderbot! (Señala a Kinderbot). Él es una máquina súper curiosa y está listo para aprender muchas cosas. ¡Pero hoy lo vamos a poner a prueba! ¿Creen que Kinderbot es muy, muy inteligente? ¡Vamos a descubrirlo!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: El Secreto de la Estrella y la Gran Pregunta (3 min)</h3>
+<p>Prepara el ambiente de misterio y curiosidad sobre la tarjeta de la estrella, sin mostrarla aún. (Proyectar Diapositiva 4) Pregunta a los niños si Kinderbot podría saber algo que nunca se le ha enseñado, generando predicciones iniciales.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">Tengo una pregunta muy importante... ¡es un secreto! ¿Qué pasa si le mostramos a Kinderbot algo que NUNCA, NUNCA le hemos enseñado antes? ¿Podrá reconocerlo? ¡Mmm, qué misterio! ¡Será un examen sorpresa para Kinderbot! ¿Qué creen que pasará? ¿Será que puede adivinar? ¡Vamos a descubrirlo juntos, pero primero, ayudémosle a practicar lo que ya sabe!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-3">
+<h2>⚡ Actividad 3: ¡A Entrenar a Kinderbot! La Lección de las Formas ⏰ 30 min</h2>
+<p>Nos convertimos en los maestros de Kinderbot, enseñándole a reconocer formas y luego viendo si aprendió bien.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: Entrenamiento Mágico de Formas (15 min)</h3>
+<p>Explica detalladamente cómo 'entrenarán' a Kinderbot. (Proyectar Diapositiva 5) Guía a los niños para que, uno por uno o en pequeños grupos, le "muestren" repetidamente las tarjetas de círculo, cuadrado y triángulo a Kinderbot. El maestro simulará una respuesta de reconocimiento de Kinderbot (ej. un sonido de "¡Sí!" o un movimiento de cabeza afirmativo) cada vez que una forma conocida sea mostrada. Anima a los niños a repetir el nombre de la forma al mostrarla.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Listos, maestros y maestras de Kinderbot! ¡Su misión es enseñarle a nuestro amigo a reconocer las formas básicas! Miren, aquí tengo el círculo, el cuadrado y el triángulo. Cada vez que le mostremos una tarjeta y digamos su nombre, Kinderbot va a aprender un poquito más. ¡Es como si le estuviéramos llenando su 'cerebro' de datos! ¡Vamos a hacerlo juntos! ¿Quién quiere empezar a enseñarle al robot? Recuerden, le mostramos la tarjeta y decimos fuerte: "¡CÍRCULO!", "¡CUADRADO!", "¡TRIÁNGULO!". ¡Vamos a practicar varias veces para que Kinderbot sea un campeón de las formas!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: El Gran Examen y la Sorpresa de la Estrella (15 min)</h3>
+<p>Después del 'entrenamiento', simula que Kinderbot 'acierta' con las formas conocidas. (Proyectar Diapositiva 6) Luego, con gran expectación, introduce la tarjeta de la estrella. (Proyectar Diapositiva 7) Pide a los niños que predigan si Kinderbot la reconocerá. Finalmente, simula el 'error' de Kinderbot (un sonido de 'error' o un movimiento de cabeza negativo). (Proyectar Diapositiva 8) Facilita la reflexión y el diálogo sobre por qué Kinderbot no reconoció la estrella, guiándolos a la conclusión de que no fue entrenado para ello.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Ustedes son unos maestros increíbles! ¡Creo que Kinderbot ya aprendió muchísimo! ¡Vamos a ver si es cierto! Le vamos a mostrar estas formas de nuevo y... ¡bravo, Kinderbot acertó! ¡Miren, lo está haciendo genial con el círculo, el cuadrado y el triángulo! ¡Pero ahora, ¿están listos para la sorpresa? ¡Tengo aquí una tarjeta secreta! ¡Tachán! Es una... ¡estrella! ¿Qué creen que pasará si le mostramos esta estrella a Kinderbot? ¿La reconocerá? ¿Qué piensan? ¡Levanten la mano si creen que sí, o la otra si creen que no! ¡Hagamos la prueba! (Muestra la estrella a Kinderbot y simula un sonido de 'error'). ¡Oh, no! ¡Kinderbot no la reconoció! ¿Por qué creen que pasó esto? ¡Exacto! ¡Porque nunca le enseñamos la estrella! ¡Las máquinas solo saben lo que NOSOTROS les enseñamos! ¡Es como si su cerebro de robot solo tuviera la información que le metemos, y nadie le metió la estrella!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-4">
+<h2>⚡ Actividad 4: ¡Misión Cumplida! Descubriendo los Límites del Saber ⏰ 5 min</h2>
+<p>Reflexionamos sobre lo que Kinderbot nos enseñó: las máquinas son geniales, ¡pero solo saben lo que nosotros les enseñamos!</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: Compartiendo Descubrimientos y Reflexión (3 min)</h3>
+<p>Invita a los niños a compartir sus observaciones y lo que aprendieron sobre cómo Kinderbot 'sabe' las cosas y por qué no reconoció la estrella. (Proyectar Diapositiva 9) Refuerza la idea de que el conocimiento de una máquina es limitado a los datos que recibe.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Equipo de genios, misión cumplida! ¡Hoy hicimos un descubrimiento GIGANTE! ¿Qué fue lo más interesante que aprendieron sobre Kinderbot y los datos? ¿Por qué creen que no pudo reconocer la estrella, aunque es una forma súper bonita? ¡Muy bien! Aprendimos que las máquinas son súper listas, ¡pero solo si nosotros les enseñamos! Si no les damos los datos, ¡no lo saben!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: La Lección Final y Analogía de los Números (2 min)</h3>
+<p>Utiliza la analogía de los números para consolidar el concepto de que el conocimiento de una máquina es limitado a su entrenamiento, de una manera que sea fácil de entender para ellos. (Proyectar Diapositiva 10) Felicita a los niños por su participación y comprensión. (Proyectar Diapositiva 11).</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Exacto! Es como si ustedes solo hubieran aprendido los números hasta el 5. Si yo les pregunto '¿qué número sigue después del 5?', ¡quizás todavía no lo sepan! Necesitan que les enseñemos más 'datos', ¿verdad? ¡Pues Kinderbot es igual! ¡Solo sabe lo que le enseñamos! ¡Si no le mostramos una estrella, no la puede reconocer! ¡Son unos campeones descifrando los secretos de la inteligencia artificial! ¡Felicidades, equipo! ¡Hoy fueron unos maestros de datos increíbles!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+<script src="script.js"></script>
 </body>
-
 </html>
